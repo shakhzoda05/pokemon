@@ -12,8 +12,8 @@ function renderPOkemon(arr, list) {
                 </div>
                 <div>
                     <div class="flex items-center gap-[10px]">
-                    <button class="p-[5px] rounded-[5px] border-[2px] border-slate-500 text-slate-500">Like</button>
-                    <button class="p-[5px] rounded-[5px] border-[2px] border-slate-500 text-slate-500">More</button>
+                    <button class="p-[5px] rounded-[5px] border-[2px] border-red-500 text-red-500">Like</button>
+                    <button class="p-[5px] rounded-[5px] border-[2px] border-green-500 text-green-500">More</button>
                 </div>
             </div> `;
     elItem.className =

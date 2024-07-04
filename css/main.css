@@ -12,3 +12,10 @@ body {
   width: 1500px;
   margin: 0 auto;
 }
+
+.liked {
+  background-color: red;
+}
+body{
+  font-family: cursive;
+}

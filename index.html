@@ -16,11 +16,18 @@
   <body>
     <div class="containers flex items-center justify-between">
       <div class="w-[69%] p-10 h-[100vh] overflow-y-auto">
-        <input
-          class="shadow w-full py-[20px] pl-[40px] text-[22px] border-[2px] border-slate-400 rounded-[30px] outline-none"
-          type="text"
-          placeholder="Enter random name or number"
-        />
+        <div class="flex items-center justify-between">
+          <input
+            class="pokemon-input shadow w-[60%] py-[20px] pl-[40px] text-[22px] border-[2px] border-black rounded-[30px] outline-none"
+            type="text"
+            placeholder="Enter random name or number"
+          />
+          <select
+            class="pokemon-select shadow w-[39%] py-[20px] pl-[40px] text-[22px] border-[2px] border-black rounded-[30px]"
+          >
+            <option value="all">All</option>
+          </select>
+        </div>
         <ul
           class="pokemon-list flex flex-wrap justify-between gap-[30px] mt-[20px]"
         ></ul>
